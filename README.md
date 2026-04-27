@@ -37,8 +37,11 @@ UX Design : Utilisation d'un thème sombre (Dark Mode) pour faire ressortir les 
    
 <img width="1077" height="606" alt="image" src="https://github.com/user-attachments/assets/270e8877-7116-4a6d-a67b-40bc5b1c9d56" />
 
-En survolant la carte "Energie totale libérée" visualisation de la relation entre l'énergie libérée et la magnétude du seisme.
-De plus dans le graphique pays aynt le plus de séismes au survol du graphique pour chaque pays on voit la répartition des séises selon leurs magnétudes.
+Focus Interactivité :
+
+Info-bulles (Tooltips) contextuelles : Le survol de la carte et des graphiques pays déclenche des visualisations de détails (relation Énergie/Magnitude et répartition par pays), permettant une analyse granulaire sans charger le visuel principal.
+
+Navigation intuitive : Utilisation de boutons de navigation pour séparer l'analyse globale de l'analyse temporelle dynamique (1995-2023).
 
 Cliquer sur le bouton "Visualisation des séismes dans le monde au cours des années" améne à la page suivante :
 
