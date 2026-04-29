@@ -10,6 +10,19 @@ Outils : Power BI & DAX.
 
 Visualisation géographique : Utilisation de Microsoft Azure Maps pour une cartographie précise des épicentres selon la magnitude.
 
+📊 Données
+Dataset global des séismes (1900–2023)
+Variables : magnitude, profondeur, localisation, énergie
+
+🔍 Réalisations
+Nettoyage et structuration des données sismiques
+Création de mesures DAX pour l’analyse :
+énergie totale libérée
+magnitude moyenne
+Conception d’un dashboard interactif Power BI
+Intégration d’une carte dynamique avec Azure Maps
+Mise en place d’un Play Axis pour analyse temporelle
+
 🔢 Focus DAX & Statistiques
 Pour ce projet, l'accent est mis sur les mesures physiques et les agrégations temporelles :
 
