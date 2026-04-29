@@ -1,20 +1,20 @@
 # Analyse spatio-temporelle de la sismicité mondiale (1900-2023)
 
-##🎯 Problématique
+🎯 Problématique
 Comment identifier les zones à haut risque sismique et corréler la magnitude des événements avec la profondeur des foyers au niveau mondial ?
 
-##🛠️ Architecture & technique
+🛠️ Architecture & technique
 Source des données : Dataset exhaustif des événements sismiques mondiaux.
 
 Outils : Power BI & DAX.
 
 Visualisation géographique : Utilisation de Microsoft Azure Maps pour une cartographie précise des épicentres selon la magnitude.
 
-##📊 Données
+📊 Données
 Dataset global des séismes (1900–2023)
 Variables : magnitude, profondeur, localisation, énergie
 
-##🔍 Réalisations
+🔍 Réalisations
 Nettoyage et structuration des données sismiques
 Création de mesures DAX pour l’analyse :
 énergie totale libérée
@@ -23,7 +23,7 @@ Conception d’un dashboard interactif Power BI
 Intégration d’une carte dynamique avec Azure Maps
 Mise en place d’un Play Axis pour analyse temporelle
 
-##🔢 Focus DAX & Statistiques
+🔢 Focus DAX & Statistiques
 Pour ce projet, l'accent est mis sur les mesures physiques et les agrégations temporelles :
 
 Extrait de code
@@ -37,14 +37,14 @@ Magnitude Moyenne = AVERAGE(Earthquakes[Magnitude])
 ```
 Insight technique : Mise en place d'un Play Axis pour visualiser dynamiquement l'évolution des séismes année après année.
 
-##💡 Analyses et Insights
+💡 Analyses et Insights
 Corrélation Magnitude/Profondeur : Analyse démontrant la répartition des séismes puissants (Magnitude > 7) souvent localisés sur les ceintures de feu.
 
 Énergie Libérée : Visualisation de l'énergie cumulée (ex: 14,50K PJ) permettant d'identifier les années de ruptures majeures.
 
 UX Design : Utilisation d'un thème sombre (Dark Mode) pour faire ressortir les points de chaleur (Heatmap) et les zones d'impact.
 
-##📊 Aperçu du Dashboard
+📊 Aperçu du Dashboard
 
 1. Page principale
    
