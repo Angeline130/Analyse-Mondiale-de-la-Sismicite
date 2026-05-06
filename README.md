@@ -1,4 +1,4 @@
-🌍 # Analyse Spatio-Temporelle de la Sismicité Mondiale (1900-2023)
+## 🌍 Analyse Spatio-Temporelle de la Sismicité Mondiale (1900-2023)
 
 🎯 Problématique
 
